@@ -3,39 +3,33 @@
     margin: 0;
     padding: 0;
 }
+
 body {
     font-family: Arial, sans-serif;
-    background-image:url('background.jpg');
-    margin: 0;
+    background-image: url('begron.jpeg');
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
     padding: 20px;
-
 }
+
 .container {
     max-width: 1200px;
     margin: 0 auto;
     padding: 20px;
-
+    background-color: rgba(255, 255, 255, 0.9);
     box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
 }
 
-
+h1,
 h2 {
     text-align: center;
     margin-bottom: 20px;
     background-color: #007bff;
     color: white;
-    width: 20%;
+    padding: 10px;
+    border-radius: 5px;
 }
-
-h1 {
-
-    text-align: center;
-    margin-bottom: 20px;
-    background-color: #007bff;
-    color: white;
-    background: size 1ex 1px;
-}
-
 
 #product-list {
     margin-bottom: 30px;
@@ -45,37 +39,41 @@ h1 {
     display: flex;
     flex-wrap: wrap;
     gap: 20px;
+    justify-content: center;
 }
 
 .product {
     width: 200px;
     padding: 10px;
     background-color: white;
-    border: 1px solid white;
+    border: 1px solid #ccc;
     text-align: center;
+    border-radius: 8px;
+    box-shadow: 0 2px 5px rgba(0,0,0,0.1);
 }
 
 .product img {
     width: 100%;
     height: auto;
+    border-radius: 5px;
 }
 
 .product button {
     padding: 10px;
     background-color: #007bff;
-    color: white ;
+    color: white;
     border: none;
     cursor: pointer;
     margin-top: 10px;
-}
-
-
-.product-list{
-    background-color: #007bff;
+    border-radius: 5px;
 }
 
 .product button:hover {
     background-color: #0056b3;
+}
+
+.product-list {
+    background-color: #007bff;
 }
 
 #cart {
@@ -88,9 +86,6 @@ h1 {
     margin: 0;
 }
 
-#cart-items li{
+#cart-items li {
     padding: 5px 0;
-}
-body {
-    background-image: ur1('begron.jpeg');
 }
